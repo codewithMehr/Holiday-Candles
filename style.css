@@ -1,0 +1,79 @@
+header,
+.section2,
+.section4,
+.section6 {
+  background: url(img/Texture.png), #707561;
+}
+@media (max-width: 770px) {
+  #header {
+    display: block;
+  }
+  #header h1 {
+    line-height: normal;
+  }
+  .header-1 {
+    display: none;
+  }
+  #header img {
+    width: 20%;
+  }
+  #section1 img {
+    width: 20%;
+  }
+  #section1 h1 {
+    line-height: normal;
+  }
+  #section2,
+  .footer {
+    flex-wrap: wrap;
+  }
+  #section2 p {
+    font-size: 2vw;
+  }
+  #section3 h1 {
+    line-height: normal;
+  }
+  #section3 img {
+    display: none;
+  }
+  #section3 {
+    display: block;
+    width: 100%;
+  }
+  #section4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  #section4 div {
+    padding: 2%;
+  }
+  #section4 p, #section6 p {
+    font-size: 2.5vw;
+  }
+  #section4 .shape,
+  .section5-line {
+    display: none;
+  }
+  #section5 {
+    flex-direction: column;
+    padding-inline: 5%;
+  }
+  #section5 img {
+    display: none;
+  }
+  #section5 p {
+    line-height: normal;
+  }
+  #section5 .section5-hr {
+    display: block;
+    width: 100%;
+  }
+  #section6 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section6 .shape {
+    display: none;
+  }
+}
+
